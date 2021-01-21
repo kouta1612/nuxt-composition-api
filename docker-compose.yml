@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    build: .
+    container_name: "nuxt-composition-api"
+    ports:
+      - "8080:3000"
+    volumes:
+      - .:/usr/src/nuxt-composition-api
