@@ -26,7 +26,7 @@ export default {
   buildModules: ["@nuxt/typescript-build", "@nuxtjs/composition-api"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxt/http"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
